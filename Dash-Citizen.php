@@ -82,7 +82,7 @@
         <!--=-=-=-=-=Navbar Start Here-=-=-=-=-=--->
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="Dash-Citizen.php" style="font-size:40px; font-weight:500;">
-                Mps.com
+                EasyEssentials.com
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

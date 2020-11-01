@@ -148,10 +148,11 @@
     <!--=-=-=-Modal Ends Here=--=-=-=-->
 <center>
        
- <h1>Search Sellers </h1>
+ <h1 style="margin-top:50px; font-weight:700 ">SEARCH SELLERS </h1>
+   <br>
     
-    Select Your City:
-    <select ng-model="selobjectcity" ng-options="obj.city for obj in jsonarray1"></select>
+    <h2>Select Your City:</h2>
+    <select ng-model="selobjectcity" ng-options="obj.city for obj in jsonarray1" style="width:200px;"></select>
     <br>
     <br>
     <br>

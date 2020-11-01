@@ -69,10 +69,10 @@
                 </div>
             </div>
             <div class="form-row">
-                <div class="form-group col-md-6">
+               <!-- <div class="form-group col-md-6">
                     <label>Product ID</label>
                     <input type="text" class="form-control" id="txtProductId" name="txtProductId">
-                </div>
+                </div>-->
                 <div class="form-group col-md-6">
                     <label>Product Price</label>
                     <input type="number" class="form-control" id="txtPrice" name="txtPrice">
@@ -96,7 +96,7 @@
             <br>
             <center>
             <button type="submit" name="btn" value="save" class="btn btn-primary" id="btnSave">Save</button>
-            <button type="submit" name="btn" value="update" class="btn btn-primary" id="btnUpdate">Update</button>
+            <!--<button type="submit" name="btn" value="update" class="btn btn-primary" id="btnUpdate">Update</button>-->
             </center>
             <br>
             <br>

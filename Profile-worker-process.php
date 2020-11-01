@@ -49,7 +49,7 @@ function doUpdate($dbCon)
         move_uploaded_file($tempNameprofile,"Uploads/".$orgNameprofile);
     }
     
-    $query="update sellers set email='$email',sellername='$name',contact='$contact',firmshop='$firm',city='$city',address='$address',states='$states',aadharpic='$filenameaadhar',profilepic='$filenameprofile',pincode='$pincode',otherinfo='$otherinfo' ";
+    $query="update sellers set email='$email',sellername='$name',contact='$contact',firmshop='$firm',city='$city',address='$address',states='$states',aadharpic='$filenameaadhar',profilepic='$filenameprofile',pincode='$pincode',otherinfo='$otherinfo' where uid='$uid'";
     
     mysqli_query($dbCon,$query);
        $msg=mysqli_error($dbCon);

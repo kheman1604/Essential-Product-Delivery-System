@@ -38,6 +38,31 @@ if (isset($_POST['remove'])){
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        #pay{
+            width:200px;
+            height: 70px;
+            font-size: 30px;
+            font-weight: 700;
+            color: white;
+            background-color: darkgreen;
+            border: none;
+            border-radius: 30px;
+            position: fixed;
+            right: 12%;
+            top:40%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#pay").click(function(){
+            alert("Payment Mode : Cash \n Order Placed Successfully");
+            location.href="http://localhost/Essential-Delivery-System/Dash-Citizen.php";
+            
+        });
+    });
+    </script>
 </head>
 <body class="bg-light">
 
@@ -104,8 +129,10 @@ if (isset($_POST['remove'])){
                     </div>
                 </div>
             </div>
-
         </div>
+         <div >
+                    <input id="pay" type="button" value="Pay Now">
+         </div>
     </div>
 </div>
 
